@@ -1,0 +1,33 @@
+{
+  "name": "example-tableau-react-embedding",
+  "version": "1.0.0",
+  "description": "Example code for how to incorporate the Tableau Javascript API into a React project",
+  "main": "index.js",
+  "repository": "git@github.com:jhegele/example-tableau-react-embedding.git",
+  "author": "John Hegele <jhegele@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/react": "^17.0.6",
+    "@types/react-dom": "^17.0.5",
+    "babel-loader": "^8.2.2",
+    "html-webpack-loader": "^0.0.5",
+    "html-webpack-plugin": "^5.3.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
